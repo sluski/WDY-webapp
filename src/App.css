@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap" rel="stylesheet');
+
+.App {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.question-panel-wrapper {
+  /*height: 50vh;*/
+  min-height: 500px;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.dotted-underline {
+  text-decoration: underline dotted;
+  animation-name: example;
+  animation-duration: 0.6s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes example {
+  from {  text-shadow: #bbb 1px 1px 1px;  }
+  to {  text-shadow: 2px 2px 6px #ccc }
+}
+
+.rating-vote-container {
+  min-height: 180px;
+}
+
+a:hover {
+  cursor: pointer;
+  color: #89B6A5;
+}
+
+.test {
+  width: 40vw;
+  max-width: 300px;
+  display: flex !important;
+  flex-flow: row nowrap !important;
+  justify-content: space-around !important;
+}
+
+.icon {
+  color: #ccc;
+  font-size: 4em !important;
+}
+
+.icon:hover {
+  color: white;
+  font-size: 4.3em !important;
+}
+
+.label-box {
+  font-size: 0.8em !important;
+  font-weight: 500;
+  text-align: center;
+  letter-spacing: 3px;
+}
+
+.love {
+  font-weight: bold;
+  font-size: 0.9em !important;
+  font-size: 0.9em !important;
+}
+
+.info-panel-wrapper {
+    color: white;
+    width: 50vw;
+    font-size: 1.6em;
+}
+
+body, html {
+  font-family: "Edu AU VIC WA NT Hand", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.boolean-type-wrapper {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  width: 30vw;
+  padding: 15px;
+}
+
+.boolean-type-button {
+  width: 6vw;
+  min-width: 80px;
+  letter-spacing: 2px !important;
+  font-weight: 500 !important;
+  font-size: 0.6em !important;
+  border-radius: 10px !important;
+  background-color: #3949AB !important;
+}
+
+.next-button {
+  width: 10vw;
+  min-width: 100px;
+  letter-spacing: 2px !important;
+  font-weight: 600 !important;
+  font-size: 1em !important;
+  border-radius: 10px !important;
+  background-color: #283B89FF !important;
+  color: white !important;
+}
+
+.MuiRating-icon {
+  color: white !important;
+}
+
+.MuiRating-iconFilled {
+  color: gold !important
+}
