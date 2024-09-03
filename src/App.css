@@ -10,8 +10,36 @@
   color: white;
 }
 
+.nav-bar-wrapper {
+  height: 80px;
+  width: 100%;
+}
+
+.nav-bar {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-end;
+  padding: 20px;
+}
+
+.nav-bar > .MuiButton-root {
+  margin: 0 10px;
+  color: white;
+  text-transform: none;
+  font-size: 1.2em;
+}
+
+.content-wrapper {
+  flex-grow: 1;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
 .question-panel-wrapper {
-  /*height: 50vh;*/
   min-height: 500px;
   display: flex;
   flex-flow: column nowrap;
